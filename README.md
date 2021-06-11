@@ -6,6 +6,15 @@
  4. Simulations based on an additive impact of a SNP pair as the causal genetic architecture. 
  5. Simulations based on a haplotype stretch within a block as a causal genetic architecture. 
 
+**This version (V0.1) was quickly tested. Further tests should be carried out soon.**
+
+
+## Assumptions
+1. VCF file should contain biallelic variants (only two alleles).
+2. VCF file should not have missing genotypes. Missing genotypes will be replaced by homozygous reference variants.
+3. A warning message will appear if the square of the Pearson correlation coefficient between the SNPs of a pair, any of the pair SNPs and the encoded combined impact (additive/interaction) is greater than 0.8. 
+4. If haplotype-based simulations are required, the VCF file should be phased (`|` separator between alleles).
+
 # Prerequisites
  1. R version 3.4.4 (2018-03-15) or later.
  2. optparse (R libraries).
