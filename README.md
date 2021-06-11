@@ -39,7 +39,7 @@ Please see the sections below for more details and examples. Parameters and opti
     See the sample files for the format.
 4. **`--hap`**: Haplotype file path to be used for haplotype-based simulations.
     It contains three columns (tab-separated) as follows: the SNP determining the beginning of the haplotype, the SNP determining the end of the haplotype, then the haplotype stretch used for encoding.
-    For example, if you want to simulate gene expression for the haplotype `01101` within the block determined by the 5th and ninth SNP in the VCF file, the line in this file should be like this `5\t9\01101`. 
+    For example, if you want to simulate gene expression for the haplotype `01101` within the block determined by the 5th and ninth SNP in the VCF file, the line in this file should be like this `5\t9\t01101`. 
     See the sample files for the format.
 5. **`--h2`**: Heritability value between 0 and 1. 
     It refers to the proportion of the expression variation caused by the genetic architecture.
