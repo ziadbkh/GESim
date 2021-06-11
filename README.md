@@ -13,7 +13,7 @@
 # Usage
 ## Default configurations
 ```
-Rscript GESim.R -i example/snp_test.vcf -s example/snps.txt --pair_a example/pairs.txt --pair_i example/pairs.txt --hap example/haps.txt  --random 0 --h2 0.05 -o example/out/out 
+Rscript GESim.R -i example/variants.vcf -s example/snps.txt --pair_a example/pairs.txt --pair_i example/pairs.txt --hap example/haps.txt  --random 0 --h2 0.05 -o example/out/out 
 ```
 ## Help
 Please see the sections below for more details and examples. Parameters and options can be accessed using the help command.
